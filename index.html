@@ -4,45 +4,48 @@
       <meta name="author" content="Pierre-Emmanuel Wulfman">
       <meta name="description" content="My personal blog to share my work in science and tech">
       <meta name="keywords" content="science, tech, blog, personal, functional programming">
+      <!-- OpenGraph data -->
       <meta property="og:title" content="Pierre-Emmanuel Wulfman's Space">
       <meta property="og:description" content="My personal blog to share my work in science an tech">
       <meta property="og:url" content="www.wulfman.fr" />
       <meta property="og:site_name" content="Pierre-Emmanuel Wulfman" />
       <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
-  <link
-    crossorigin="crossorigin"
-    href="https://fonts.gstatic.com"
-    rel="preconnect"
-  />
-
-  <link
-    as="style"
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="preload"
-  />
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+      <!--  Looding fonts -->
+      <link
+         crossorigin="crossorigin"
+         href="https://fonts.gstatic.com"
+         rel="preconnect"
+      />
+      <link
+         as="style"
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+         rel="preload"
+      />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+         rel="stylesheet"
+      />
+       <!-- Icons library -->
       <link
          rel="stylesheet"
          href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       />
+       <!-- Tailwind CSS -->
       <link crossorigin="anonymous" href="./src/output.css" media="screen" rel="stylesheet"/>
+      <!-- Dark mode -->
       <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
       <link
          rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/atom-one-dark.min.css"
       />
-
       <script>
          hljs.initHighlightingOnLoad();
       </script>
-
       <!--Alpine Js V3-->
       <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
    </head>
+   <!-- ---------------------------------------------------------------------------------------------- -->
+   <!-- ---------------------------------------------------------------------------------------------- -->
    <body x-data="global()" x-init="themeInit()" class="dark:bg-primary">
       <header>
          <div class="container mx-auto">
